@@ -4,7 +4,7 @@ jdk:
   - openjdk8
 
 before_deploy:
-  - VERSION=$(mvn org.apache.maven.plugins:maven-help-plugin:3.1.0:evaluate -Dexpression=project.version -q -DforceStdout)
+  - VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
 
 deploy:
   provider: releases
