@@ -7,7 +7,7 @@ deploy:
   provider: releases
   file: target/distance4j-$version.jar
   api_key:
-    secure: $GITHUB_OATH
+    secure: $GITHUB_OATH_TOKEN
   skip_cleanup: true
   draft: true
   on:
