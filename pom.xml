@@ -6,7 +6,7 @@
 
     <groupId>io.github.jbujalance</groupId>
     <artifactId>distance4j</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Distance4J</name>

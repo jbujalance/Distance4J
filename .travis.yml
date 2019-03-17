@@ -1,0 +1,16 @@
+language: java
+jdk:
+  - oraclejdk8
+  - openjdk8
+
+deploy:
+  provider: releases
+  file: target/distance4j-$version.jar
+  api_key:
+    secure: $GITHUB_OATH
+  skip_cleanup: true
+  draft: true
+  on:
+    repo: jbujalance/Distance4J
+    tags: true
+    branch: master
