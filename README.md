@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jbujalance/Distance4J.svg?branch=master)](https://travis-ci.com/jbujalance/Distance4J)
+
 # Distance4J
 Distance4J is a lightweight Java library that provides an easy way to convert and apply arithmetic operations on distance measures.
 
